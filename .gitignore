@@ -1,0 +1,49 @@
+# -------------------------------------------------------------------
+# Java / Maven / Spring Boot project .gitignore
+# -------------------------------------------------------------------
+
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Compiled classes / JARs
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment / secrets (if any)
+application-*.yml
+application-*.properties
+.env
