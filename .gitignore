@@ -3,10 +3,7 @@
 # -------------------------------------------------------------------
 
 # Maven build output
-target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-.mvn/wrapper/MavenWrapperDownloader.java
+
 
 # Eclipse / STS
 .project
